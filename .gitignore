@@ -1,0 +1,40 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Archivos de registro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Directorios de dependencias
+node_modules/
+jspm_packages/
+
+# Directorios de distribución
+dist/
+build/
+
+# Archivos de cache
+.cache/
+.parcel-cache/
+
+# Archivos de IDE y editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw? 
