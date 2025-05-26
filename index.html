@@ -32,12 +32,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Colageno es Salud</h1>
-            <p class="tagline">Productos naturales para tu bienestar</p>
+            <a href="https://nskn.co/tLcWe9" class="header-link" target="_blank">
+                <h1>Colageno es Salud</h1>
+                <p class="tagline">Productos naturales para tu bienestar</p>
+            </a>
         </div>
     </header>
 
@@ -46,41 +49,149 @@
             <div class="hero-content">
                 <h2>Mejora tu salud con nuestros productos de colágeno</h2>
                 <p>Descubre nuestra línea de productos naturales diseñados para mejorar tu bienestar y calidad de vida.</p>
-                <a href="#productos" class="btn">Ver Productos</a>
+                <div class="hero-buttons">
+                    <a href="#productos" class="btn btn-primary">Ver Productos Principales</a>
+                    <a href="otros-productos.html" class="btn btn-secondary">Ver Otros Productos</a>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="productos" class="products">
         <div class="container">
-            <h2 class="section-title">Nuestros Productos de Colágeno Premium</h2>
-            <div class="product-grid">
-                <div class="product-card">
-                    <img src="img/producto1.jpg" alt="Colágeno Hidrolizado - Suplemento para piel, cabello y articulaciones">
-                    <h3>Colágeno Hidrolizado</h3>
-                    <p>Suplemento en polvo para mejorar la salud de piel, cabello y articulaciones.</p>
-                    <a href="products/colageno-hidrolizado.html" class="btn-secondary">Ver detalles</a>
+            <h2 class="section-title">Nuestros Productos Destacados</h2>
+            <div class="product-showcase">
+                <!-- Producto 1: Collagen + -->
+                <div class="product-item">
+                    <a href="https://nskn.co/tLcWe9" class="product-image" target="_blank">
+                        <img src="img/collagenPlus.webp" alt="COLLAGEN + - Suplemento avanzado">
+                    </a>
+                    <div class="product-info">
+                        <a href="https://nskn.co/tLcWe9" class="product-title" target="_blank">
+                            <h3>COLLAGEN +</h3>
+                        </a>
+                        <p>Fórmula avanzada con péptidos de colágeno para una máxima absorción y resultados visibles.</p>
+                        <div class="product-buttons">
+                            <a href="https://nskn.co/tLcWe9" class="btn-buy" target="_blank">Comprar ahora</a>
+                            <a href="products/collagen-plus.html" class="btn-secondary">Ver detalles</a>
+                            <a href="javascript:void(0);" class="read-more-btn" onclick="toggleProductInfo(this, 'collagenPlusDetails')">Leer más...</a>
+                        </div>
+                        <div id="collagenPlusDetails" class="more-details-content" style="display: none; margin-top: 1rem;">
+                            <h4>CONOCE COLLAGEN+</h4>
+                            <p><strong>¿Estás listo para conseguir resultados espectaculares?</strong></p>
+                            <p>Ayuda a mejorar la producción de colágeno y elastina con Inner Focus Collagen+.</p>
+                            <p><strong>¿Cómo?</strong></p>
+                            <p>Cada porción proporciona 2,5 gramos de péptidos de colágeno. Se trata de nuestra mezcla patentada clínicamente probada con una combinación de beneficios que simplemente no podrás encontrar en ningún otro lugar.</p>
+                            <p><strong>¿POR QUÉ TE VA A ENCANTAR COLLAGEN+?</strong></p>
+                            <ul>
+                                <li>Ayuda a aumentar la producción de colágeno y elastina.</li>
+                                <li>Con certificación SCS de nivel I, para que sepas que los carotenoides se absorben y aumentan tu puntuación del escáner.</li>
+                                <li>Elaborado sin colorantes, saborizantes ni edulcorantes artificiales.</li>
+                                <li>Tiene un delicioso sabor natural a naranja.</li>
+                            </ul>
+                            <p><strong>¿QUÉ ACTIVA COLLAGEN+?</strong></p>
+                            <ul>
+                                <li>Péptidos de Colágeno Bioactivos— péptidos de colágeno de alta calidad con una "huella" peptídica única que ha demostrado contribuir en la estimulación de la producción de colágeno y elastina.</li>
+                            </ul>
+                            <p><strong>¿CÓMO USAR COLLAGEN+?</strong></p>
+                            <p>Disfruta de una medida de Collagen+ al día. Conservar en un lugar fresco y seco.</p>
+                            <p><small>Este producto no está destinado a diagnosticar, tratar, curar o prevenir ninguna enfermedad.</small></p>
+                        </div>
+                    </div>
                 </div>
-                
-                <div class="product-card">
-                    <img src="img/producto2.jpg" alt="Colágeno con Vitamina C - Fórmula potenciada para mejor absorción">
-                    <h3>Colágeno con Vitamina C</h3>
-                    <p>Fórmula potenciada para una mejor absorción y resultados más rápidos.</p>
-                    <a href="products/colageno-vitamina-c.html" class="btn-secondary">Ver detalles</a>
+
+                <!-- Producto 2: Lumispa -->
+                <div class="product-item product-item-reverse">
+                    <a href="https://nskn.co/tLcWe9" class="product-image" target="_blank">
+                        <img src="img/lumispa.avif" alt="Lumispa - Dispositivo de limpieza facial">
+                    </a>
+                    <div class="product-info">
+                        <a href="https://nskn.co/tLcWe9" class="product-title" target="_blank">
+                            <h3>Lumispa</h3>
+                        </a>
+                        <p>Dispositivo de limpieza facial profunda para una piel radiante y rejuvenecida.</p>
+                        <div class="product-buttons">
+                            <a href="https://nskn.co/tLcWe9" class="btn-buy" target="_blank">Comprar ahora</a>
+                            <a href="products/lumispa.html" class="btn-secondary">Ver detalles</a>
+                            <a href="javascript:void(0);" class="read-more-btn" onclick="toggleProductInfo(this, 'lumispaDetails')">Leer más...</a>
+                        </div>
+                        <div id="lumispaDetails" class="more-details-content" style="display: none; margin-top: 1rem;">
+                            <h4>CONOCE AGELOC LUMISPA IO</h4>
+                            
+                            <h5>¿CÓMO FUNCIONA AGELOC LUMISPA IO?</h5>
+                            <p>Con su cabezal de tratamiento de silicona suave, la tecnología patentada de oscilación por micropulsos de ageLOC LumiSpa permite al dispositivo moverse a la frecuencia precisa para ayudar a promover la renovación de la piel, dando una apariencia más suave y tersa después de un solo uso. Al mismo tiempo, limpia de manera suave pero profunda la suciedad, la grasa, el maquillaje y las toxinas a través de su acción patentada de rotación inversa y purificación de poros, dejando la piel más suave y pura mientras reduce la apariencia de los poros.</p>
+
+                            <h5>¿QUÉ HACE ÚNICO A AGELOC LUMISPA IO?</h5>
+                            <p>A diferencia de los dispositivos de limpieza que se encuentran actualmente en el mercado, que tienen cepillos abrasivos o cabezales con cerdas, ageLOC LumiSpa iO cuenta con un cabezal de tratamiento de silicona suave y más higiénico que no daña la piel.</p>
+
+                            <div class="benefits-list">
+                                <div class="benefit-item">
+                                    <span class="icon">✨</span>
+                                    <p>ageLOC LumiSpa iO cuenta con la tecnología de oscilación por micropulsos para estimular la piel, tratarla y limpiarla con mayor eficacia y así brindar beneficios superiores de renovación de la piel.</p>
+                                </div>
+                                <div class="benefit-item">
+                                    <span class="icon">✨</span>
+                                    <p>ageLOC LumiSpa iO es un dispositivo de doble acción y ahorro de tiempo que ofrece un tratamiento superior para perfeccionar la piel y brinda beneficios de limpieza profunda al mismo tiempo.</p>
+                                </div>
+                                <div class="benefit-item">
+                                    <span class="icon">✨</span>
+                                    <p>ageLOC LumiSpa iO se conecta a la aplicación Nu Skin Vera® para optimizar tu proceso de cuidado de la piel con tratamientos personalizables, entrenamiento inteligente, premios y una cronología con selfies.</p>
+                                </div>
+                            </div>
+
+                            <h5>¿QUÉ ES IoT Y QUÉ SIGNIFICA PARA MI AGELOC LUMISPA IO?</h5>
+                            <p>IoT significa literalmente "internet de las cosas" u objetos físicos diseñados para conectarse. Para ti significa que ageLOC LumiSpa iO ahora incluye Bluetooth que permite que el dispositivo se conecte con la aplicación Nu Skin Vera® en tu teléfono. Esta nueva tecnología abre un nuevo mundo de posibilidades y experiencias.</p>
+                            <p>Los sensores del dispositivo pueden detectar:</p>
+                            <ul>
+                                <li>Cuándo es el momento de reemplazar el cabezal de tratamiento</li>
+                                <li>Cuándo se aplica demasiada presión</li>
+                                <li>Cuándo se frota demasiado rápido durante la rutina</li>
+                            </ul>
+                            <p>También puedes guardar rutinas personalizadas entre tu dispositivo y Nu Skin Vera. Piensa en ello como una optimización para el cuidado de la piel.</p>
+                        </div>
+                    </div>
                 </div>
-                
-                <div class="product-card">
-                    <img src="img/producto3.jpg" alt="Colágeno Marino - Mayor biodisponibilidad para tu organismo">
-                    <h3>Colágeno Marino</h3>
-                    <p>Extraído de fuentes marinas para una mayor biodisponibilidad.</p>
-                    <a href="products/colageno-marino.html" class="btn-secondary">Ver detalles</a>
-                </div>
-                
-                <div class="product-card">
-                    <img src="img/producto4.jpg" alt="Crema de Colágeno - Tratamiento tópico antiedad">
-                    <h3>Crema de Colágeno</h3>
-                    <p>Tratamiento tópico para rejuvenecer y revitalizar tu piel.</p>
-                    <a href="products/crema-colageno.html" class="btn-secondary">Ver detalles</a>
+
+                <!-- Producto 3: ageLOC WellSpa iO -->
+                <div class="product-item">
+                    <a href="https://nskn.co/tLcWe9" class="product-image" target="_blank">
+                        <img src="img/ageLocWellSpaIO.jpeg" alt="ageLOC WellSpa iO - Bienestar y belleza">
+                    </a>
+                    <div class="product-info">
+                        <a href="https://nskn.co/tLcWe9" class="product-title" target="_blank">
+                            <h3>ageLOC WellSpa iO</h3>
+                        </a>
+                        <p>Sistema integrado para el bienestar corporal y la belleza de la piel.</p>
+                        <div class="product-buttons">
+                            <a href="https://nskn.co/tLcWe9" class="btn-buy" target="_blank">Comprar ahora</a>
+                            <a href="products/ageloc-wellspa-io.html" class="btn-secondary">Ver detalles</a>
+                            <a href="javascript:void(0);" class="read-more-btn" onclick="toggleProductInfo(this, 'wellspaDetails')">Leer más...</a>
+                        </div>
+                        <div id="wellspaDetails" class="more-details-content" style="display: none; margin-top: 1rem;">
+                            <h4>CONOCE AGELOC WELLSPA IO</h4>
+                            
+                            <p>ageLOC WellSpa iO ofrece beneficios para ayudar a tu cuerpo a sentirse en un estado más óptimo. Nuestro dispositivo de bienestar y belleza integrados personaliza tu tratamiento con los beneficios de un diseño innovador que ayuda a mejorar el aspecto de la piel, un estimulador de microcorriente y un instrumento para la recuperación de tu cuerpo antes y después del ejercicio, todo en uno.</p>
+
+                            <div class="ageloc-features">
+                                <div class="feature-item">
+                                    <img src="img/ageLoc1.svg" alt="Tecnología de microcorriente adaptativa">
+                                    <p>El dispositivo cuenta con tecnología de microcorriente adaptativa que se ajusta cómodamente a la piel en tiempo real.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <img src="img/ageLoc2.svg" alt="Aplicación IoT">
+                                    <p>Una aplicación conectada a IoT que te ayuda a cumplir y superar tus objetivos.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <img src="img/ageLoc3.svg" alt="Productos ageLOC">
+                                    <p>Sus productos ageLOC efectivamente formulados que producen resultados inmediatos que puedes ver y sentir.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <img src="img/ageLoc4.svg" alt="Dispositivo único">
+                                    <p>Con todo esto y más, no existe ningún otro dispositivo como este en el mundo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -110,17 +221,44 @@
         </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Colageno es Salud. Todos los derechos reservados.</p>
-            <div class="social-links">
-                <a href="#" class="social-link">Facebook</a>
-                <a href="#" class="social-link">Instagram</a>
-                <a href="#" class="social-link">WhatsApp</a>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-placeholder"></div>
 
     <script src="script.js"></script>
+    <script>
+        function toggleProductInfo(btn, elementId) {
+            var content = document.getElementById(elementId);
+            if (!content.classList.contains('active')) {
+                // Primero mostramos el contenido
+                content.style.display = 'block';
+                // Forzamos un reflow
+                content.offsetHeight;
+                // Luego añadimos la clase para la transición
+                content.classList.add('active');
+                btn.textContent = "Leer menos...";
+                
+                // Scroll suave hasta el contenido
+                content.scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            } else {
+                // Primero quitamos la clase para la transición
+                content.classList.remove('active');
+                // Esperamos a que termine la transición
+                setTimeout(() => {
+                    content.style.display = 'none';
+                }, 300); // 300ms = duración de la transición
+                btn.textContent = "Leer más...";
+            }
+        }
+
+        // Cargar el footer
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+    <!-- Estilos movidos a styles.css -->
 </body>
 </html> 

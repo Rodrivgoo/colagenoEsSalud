@@ -8,8 +8,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetElement = document.querySelector(targetId);
             
             if (targetElement) {
+                // Calculamos la posición para mantener el título centrado
+                const windowHeight = window.innerHeight;
+                const scrollPosition = targetElement.offsetTop + (windowHeight * 0.05); // Reducido a 5% desde la parte superior
+                
                 window.scrollTo({
-                    top: targetElement.offsetTop - 70,
+                    top: scrollPosition,
                     behavior: 'smooth'
                 });
             }

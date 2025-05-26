@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otros Productos - Colageno es Salud</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="header-link">
+                <h1>Colageno es Salud</h1>
+                <p class="tagline">Productos naturales para tu bienestar</p>
+            </a>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Nuestra Gama de Otros Productos</h1>
+            <a href="index.html" class="back-link-center">
+                <i class="fas fa-arrow-left"></i> Volver al Inicio
+            </a>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="products-grid-other">
+            <!-- Producto 1 -->
+            <div class="product-card">
+                <div class="coming-soon-overlay">
+                    <i class="fas fa-clock"></i>
+                    <span>Próximamente</span>
+                </div>
+                <img src="img/coming-soon.jpg" alt="Próximamente">
+                <div class="product-info">
+                    <a href="#" class="btn-secondary">Próximamente</a>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product-card">
+                <div class="coming-soon-overlay">
+                    <i class="fas fa-clock"></i>
+                    <span>Próximamente</span>
+                </div>
+                <img src="img/coming-soon.jpg" alt="Próximamente">
+                <div class="product-info">
+                    <a href="#" class="btn-secondary">Próximamente</a>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product-card">
+                <div class="coming-soon-overlay">
+                    <i class="fas fa-clock"></i>
+                    <span>Próximamente</span>
+                </div>
+                <img src="img/coming-soon.jpg" alt="Próximamente">
+                <div class="product-info">
+                    <a href="#" class="btn-secondary">Próximamente</a>
+                </div>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="product-card">
+                <div class="coming-soon-overlay">
+                    <i class="fas fa-clock"></i>
+                    <span>Próximamente</span>
+                </div>
+                <img src="img/coming-soon.jpg" alt="Próximamente">
+                <div class="product-info">
+                    <a href="#" class="btn-secondary">Próximamente</a>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="product-card">
+                <div class="coming-soon-overlay">
+                    <i class="fas fa-clock"></i>
+                    <span>Próximamente</span>
+                </div>
+                <img src="img/coming-soon.jpg" alt="Próximamente">
+                <div class="product-info">
+                    <a href="#" class="btn-secondary">Próximamente</a>
+                </div>
+            </div>
+
+            <!-- Producto 6 -->
+            <div class="product-card">
+                <div class="coming-soon-overlay">
+                    <i class="fas fa-clock"></i>
+                    <span>Próximamente</span>
+                </div>
+                <img src="img/coming-soon.jpg" alt="Próximamente">
+                <div class="product-info">
+                    <a href="#" class="btn-secondary">Próximamente</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        // Cargar el footer
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+</html> 

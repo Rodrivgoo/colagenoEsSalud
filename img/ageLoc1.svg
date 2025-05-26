@@ -1,0 +1,22 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_5820_260)">
+<mask id="mask0_5820_260" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="60" height="60">
+<path d="M60 0H0V60H60V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_5820_260)">
+<path d="M59.25 30C59.25 46.15 46.15 59.25 30 59.25C13.85 59.25 0.75 46.15 0.75 30C0.75 13.85 13.85 0.75 30 0.75C46.15 0.75 59.25 13.85 59.25 30Z" stroke="#414142" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25.79 9C25.79 9 25.41 11.08 25.6 11.54C25.81 12.04 27.37 13.07 27.57 13.24V13.25C27.32 13.18 25.58 12.73 25.09 12.94C24.6 13.14 23.51 14.76 23.33 15.01H23.32C23.39 14.7 23.82 12.85 23.61 12.36C23.41 11.86 21.82 10.93 21.55 10.78V10.77C21.86 10.83 23.79 11.15 24.31 10.93C24.71 10.76 25.43 9 25.79 9.01V9Z" stroke="#414142" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M41.12 30.35C41.04 30.6 40.21 32.23 40.29 32.75C40.37 33.27 41.62 34.68 41.76 34.89C41.53 34.76 39.97 33.88 39.44 33.96C38.91 34.03 37.45 35.32 37.22 35.53H37.21C37.36 35.25 38.24 33.57 38.16 33.04C38.09 32.51 36.79 31.21 36.57 30.99C36.57 30.99 36.57 30.97 36.57 30.98C36.86 31.11 38.64 31.91 39.2 31.83C39.63 31.77 41.21 30.08 41.13 30.35H41.12Z" stroke="#414142" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27.57 11.26C30.68 10.28 34.31 9.38 36.98 11.25C38.2 12.1 39 13.42 39.7 14.73C43.44 21.75 46.5 28.01 45 46.51" stroke="#414142" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 16.91C12 16.91 16.52 14.88 21.71 13.05" stroke="#414142" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39 29.99C38.79 26.1 38.31 21.9 34.07 20.36C26.05 17.44 22.84 28.87 16.92 31.58" stroke="#414142" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39 46.5C39 46.5 39.17 40.12 39.15 36.38" stroke="#414142" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34.5 49.5C34.5 49.5 30.93 43.07 31.48 33.59C31.48 33.59 31.51 31.39 29.02 32.63C26.53 33.87 23.64 35.24 19.38 35.24" stroke="#414142" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_5820_260">
+<rect width="60" height="60" fill="white"/>
+</clipPath>
+</defs>
+</svg>

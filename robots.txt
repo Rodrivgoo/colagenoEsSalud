@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /img/
+Disallow: /css/
+Disallow: /js/
+
 Sitemap: https://colagenoessalud.com/sitemap.xml 
