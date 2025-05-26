@@ -18,18 +18,27 @@ colagenoEsSalud/
 ├── index.html                # Página principal
 ├── styles.css                # Estilos globales
 ├── script.js                 # JavaScript para interactividad
+├── footer.html               # Pie de página reutilizable
+├── otros-productos.html      # Página con otros productos
+├── robots.txt                # Instrucciones para crawlers
+├── sitemap.xml               # Mapa del sitio para SEO
+├── CNAME                     # Dominio personalizado para GitHub Pages
+├── .gitignore                # Archivos ignorados por Git
 ├── img/                      # Directorio de imágenes
-│   ├── wave.svg              # SVG de ondas para efectos decorativos
-│   ├── wave-bg.svg           # SVG de fondo para sección hero
-│   ├── producto1.jpg         # Imagen de producto (placeholder)
-│   ├── producto2.jpg         # Imagen de producto (placeholder)
-│   ├── producto3.jpg         # Imagen de producto (placeholder)
-│   └── producto4.jpg         # Imagen de producto (placeholder)
+│   ├── lumispa.avif
+│   ├── ageLoc4.svg
+│   ├── ageLoc3.svg
+│   ├── ageLoc2.svg
+│   ├── ageLoc1.svg
+│   ├── ageLocWellSpaIO.jpeg
+│   ├── collagenPlusInformaciónNutricional.png
+│   ├── collagenPlus.webp
+│   ├── wave-bg.svg
+│   └── wave.svg
 └── products/                 # Páginas de detalle de productos
-    ├── colageno-hidrolizado.html
-    ├── colageno-vitamina-c.html
-    ├── colageno-marino.html
-    └── crema-colageno.html
+    ├── ageloc-wellspa-io.html
+    ├── collagen-plus.html
+    └── lumispa.html
 ```
 
 ## Despliegue en GitHub Pages
